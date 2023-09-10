@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-7-CSS</title>
+    <style>
+        body {
+            background-color: rgb(179, 36, 83)
+        }
+
+        div {
+            /* background-color: purple; */
+            margin: auto;
+            width: 50%;
+            margin-top: 100px;
+
+        }
+
+        form {
+            background-color: rgb(105, 25, 57);
+            color: white;
+            line-height: 25px;
+            text-align: left;
+            padding-left: 105px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+
+        textarea {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <label for="fullname" style="padding-right: 125px;">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="your name"><br>
+            <label for="email" style="padding-right: 154px;">Email:</label>
+            <input type="email" id="email" name="email" placeholder="your email"><br>
+            <label for="pass" style="padding-right: 131px;"> Password:</label>
+            <input type="password" id="pass" name="pass"><br>
+            <label for="pno" style="padding-right: 96px;">Phone Number:</label>
+            <input type="text" id="pno" name="pno"><br>
+            <label style="padding-right: 145px;" for="gender">Gender:</label>
+            Male:<input type="radio" name="gender" id="gender" value="Male">
+            Female:<input type="radio" name="gender" id="gender" value="Female">
+            Others:<input type="radio" name="gender" id="gender" value="Others"><br>
+            <label style="padding-right: 128px;" for="lang">Languages</label>
+            <select name="lang" id="lang">
+                <option value="null">Select language</option>
+                <option value="hindi">Hindi</option>
+                <option value="english">English</option>
+                <option value="other">Others</option>
+            </select><br>
+            <label for="zip" style="padding-right: 132px;">Zip Code:</label>
+            <input type="text" id="zip" name="zip"><br>
+            <label for="about" style="padding-right: 153px;">About:</label>
+            <textarea name="about" id="about" cols="21" rows="2" placeholder="Write about yourself..."></textarea><br>
+            <input type="submit" value="Register" style="height: 30px; width: 375px;">
+        </form>
+    </div>
+</body>
+
+</html>
